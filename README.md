@@ -1,2 +1,2 @@
 # docs-media
-Docs's repositorio for static files
+Docs's repository for static files
