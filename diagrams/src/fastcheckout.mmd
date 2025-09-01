@@ -1,0 +1,13 @@
+sequenceDiagram
+    autonumber
+    participant C as Client-side
+    participant Me as Merchant's server
+    participant Mu as MultiSafepay
+
+    C->>Me: Places order
+    Me->>Mu: Requests FastCheckout page
+    Mu->>Me: Returns FastCheckout page
+    Me->>C: Redirects customer to FastCheckout page
+    C->>Mu: Customer completes checkout and pays
+    Mu->>Me: Sends webhook notification with order details
+    C->>Me: Redirects customer to your success page
