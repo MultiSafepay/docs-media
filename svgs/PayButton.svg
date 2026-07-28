@@ -1,0 +1,31 @@
+<svg width="240" height="56" viewBox="0 0 240 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft outer glow / halo using the reference's 0.3 opacity treatment -->
+  <rect x="2" y="2" width="236" height="52" rx="26" fill="#00ABEE" opacity="0.3"/>
+
+  <!-- Main button body -->
+  <rect x="6" y="6" width="228" height="44" rx="22" fill="#00ABEE"/>
+
+  <!-- Card icon -->
+  <g transform="translate(24, 18)">
+    <rect x="0" y="0" width="28" height="20" rx="3" fill="#FFFFFF"/>
+    <rect x="0" y="5" width="28" height="4" fill="#00ABEE"/>
+    <rect x="4" y="13" width="8" height="3" rx="1" fill="#00ABEE" opacity="0.3"/>
+  </g>
+
+  <!-- "Pay" text -->
+  <text x="72" y="35"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="20"
+        font-weight="700"
+        fill="#FFFFFF">
+    Pay
+  </text>
+
+  <!-- Chevron / arrow indicating quick action -->
+  <path d="M212 20 L220 28 L212 36"
+        stroke="#FFFFFF"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+</svg>
